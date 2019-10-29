@@ -3990,7 +3990,7 @@
 													"left": 69,
 													"top": 153,
 													"width": 271,
-													"height": 26,
+													"height": 39,
 													"text": "+GET(id: Voyages, unlocode: LogisticsLocation, OccurrenceTime: TransportEvent, Name: Vessel)",
 													"horizontalAlignment": 0,
 													"wordWrap": true
@@ -4007,7 +4007,7 @@
 													"fillColor": "#fff5d8",
 													"font": "Arial;13;0",
 													"left": 69,
-													"top": 181,
+													"top": 194,
 													"width": 271,
 													"height": 13,
 													"text": "+PATCH(Voyage: Voyage)",
@@ -4019,7 +4019,7 @@
 											"left": 64,
 											"top": 133,
 											"width": 281,
-											"height": 66
+											"height": 79
 										},
 										{
 											"_type": "UMLReceptionCompartmentView",
@@ -28230,7 +28230,7 @@
 													"top": 90,
 													"width": 229,
 													"height": 13,
-													"text": "Transport"
+													"text": "TransportDomain"
 												},
 												{
 													"_type": "LabelView",
@@ -28354,7 +28354,7 @@
 													"top": 133,
 													"width": 143,
 													"height": 13,
-													"text": "(from Transport)"
+													"text": "(from TransportDomain)"
 												},
 												{
 													"_type": "LabelView",
@@ -28459,7 +28459,7 @@
 													"top": 221,
 													"width": 143,
 													"height": 13,
-													"text": "(from Transport)"
+													"text": "(from TransportDomain)"
 												},
 												{
 													"_type": "LabelView",
