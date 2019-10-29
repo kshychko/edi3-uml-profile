@@ -218,6 +218,17 @@
                     "type": "Text",
                     "name": "SailingAdviceNotificationInformation"
                 }
+            },
+            {
+                "name": "Attribute1",
+                "description": "",
+                "isID": false,
+                "status": "",
+                "cardinality": "",
+                "DataType": {
+                    "type": "",
+                    "name": "Attribute1"
+                }
             }
         ],
         "Relationship": [
@@ -246,10 +257,6 @@
                     "name": "TransportMovement",
                     "type": "Entity"
                 }
-            },
-            {
-                "name": "VoyageLifecycle",
-                "description": "The state lifecycle of a trasnport movement"
             }
         ]
     },
@@ -1182,28 +1189,6 @@
                     "name": "TransportParty",
                     "type": "Entity"
                 }
-            },
-            {
-                "name": "",
-                "description": "",
-                "type": "associationClassLink",
-                "association": {
-                    "name": "MovementParty",
-                    "description": "",
-                    "type": "aggregation",
-                    "source": {
-                        "name": "TransportMovement",
-                        "type": "Entity"
-                    },
-                    "target": {
-                        "name": "TransportParty",
-                        "type": "Entity"
-                    }
-                },
-                "class": {
-                    "name": "TransportMovementParty",
-                    "type": "Entity"
-                }
             }
         ]
     },
@@ -1239,28 +1224,6 @@
                 },
                 "target": {
                     "name": "TransportParty",
-                    "type": "Entity"
-                }
-            },
-            {
-                "name": "",
-                "description": "",
-                "type": "associationClassLink",
-                "association": {
-                    "name": "MeansParty",
-                    "description": "",
-                    "type": "aggregation",
-                    "source": {
-                        "name": "TransportMeans",
-                        "type": "Entity"
-                    },
-                    "target": {
-                        "name": "TransportParty",
-                        "type": "Entity"
-                    }
-                },
-                "class": {
-                    "name": "TransportMeansParty",
                     "type": "Entity"
                 }
             }
@@ -1510,32 +1473,7 @@
                 }
             }
         ],
-        "Relationship": [
-            {
-                "name": "",
-                "description": "",
-                "source": {
-                    "name": "TransportEvents",
-                    "type": "Event"
-                },
-                "target": {
-                    "name": "Journeys",
-                    "type": "Event"
-                }
-            },
-            {
-                "name": "",
-                "description": "",
-                "source": {
-                    "name": "TransportEvents",
-                    "type": "Event"
-                },
-                "target": {
-                    "name": "Voyages",
-                    "type": "Event"
-                }
-            }
-        ],
+        "Relationship": [],
         "Operation": [
             {
                 "name": "POST",
